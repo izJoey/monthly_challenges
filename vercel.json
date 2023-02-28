@@ -1,9 +1,9 @@
 {
+    "version": 2,
     "builds": [
         {
-            "src": "monthly_challenges/wsgi.py",
-            "use": "@vercel/python",
-            "config": { "maxLambdaSize": "15mb" }
+            "src": "app/**",
+            "use": "@vercel/python"
         }
     ],
     "routes": [
